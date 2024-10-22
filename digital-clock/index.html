@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="style.css" />
+    <title>Digital Clock | upCoding</title>
+  </head>
+  <body>
+    <!-- Digital clock start -->
+    <div class="container">
+      <svg>
+        <circle cx="125" cy="125" r="125"></circle>
+        <circle cx="125" cy="125" r="125" id="circle"></circle>
+      </svg>
+      <div class="wrapper">
+        <div id="date"></div>
+
+        <div id="time">
+          <span id="hours"></span>:<span id="minutes"></span>:
+          <span id="seconds"></span>
+        </div>
+        <div id="am-pm"></div>
+      </div>
+    </div>
+    <!-- Digital clock ends -->
+
+    <!-- Moment.js library -->
+    <script src="moment.js"></script>
+    <!-- Script.js -->
+    <script src="script.js"></script>
+  </body>
+</html>
